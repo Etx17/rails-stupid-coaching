@@ -1,0 +1,26 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+h1 {
+  font-family: 'Roboto';
+  font-weight:600
+}
+.conversation-container {
+  width: 350px;
+  font-size: 19px;
+  font-family: 'Roboto';
+}
+
+.question {
+
+  margin: 8px;
+  border-left: solid rgb(184, 183, 183) 9px;
+  padding: 4px,
+}
+
+.answer {
+  margin: 8px;
+  padding: 4px;
+  border-left: solid rgb(184, 183, 183) 9px;
+  background-color:rgb(252, 242, 193)
+}
